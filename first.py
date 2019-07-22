@@ -1,5 +1,6 @@
 import sqlite3
 import configparser
+import os
 #First Run Setup
 connection = sqlite3.connect("database.db")
 cursor = connection.cursor()
@@ -17,3 +18,4 @@ config = configparser.ConfigParser()
 config['PATHS'] = {'TorrentPath': './Torrents'}
 with open('config.ini', 'w') as configfile:
     config.write(configfile)
+os.makedirs("./Torrents")
