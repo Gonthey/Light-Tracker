@@ -1,0 +1,9 @@
+
+var pia=pouplor movie in area
+var zip = zip code
+var cor = country of redicince
+
+
+
+var
+			var recomend=pia+(zip-cor)* history
